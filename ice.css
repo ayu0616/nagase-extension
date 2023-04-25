@@ -1,0 +1,52 @@
+#search-container {
+    display: flex;
+}
+
+#search-container>select, #search-container>button {
+    margin: 0.5rem;
+}
+
+#search-container>select {
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 0.25rem;
+}
+
+div[data-test="question-paper"] {
+    display: none;
+}
+
+div[data-test="criterion-paper"] {
+    width: 100%;
+}
+
+#adornment-score-0 {
+    height: 30rem;
+}
+
+div[data-test="sheet-uploading-snack-bar"] {
+    max-height: 90%;
+}
+
+div[role="alertdialog"] {
+    height: 100%;
+    overflow-y: scroll;
+}
+
+div.extension-container {
+    margin: 2rem;
+    padding: 1rem;
+    border: 1px solid lightgray;
+    border-radius: 0.5rem;
+    top: 2rem;
+    position: sticky;
+    background-color: white;
+    z-index: 1000
+}
+
+button.renda-button {
+    margin: 0.5rem;
+}
+
+button.hide-button {
+    margin: 0.5rem;
+}

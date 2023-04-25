@@ -1,0 +1,31 @@
+div#bubuntenDialogDiv {
+    overflow-y: scroll;
+    height: 100%;
+    margin-left: 60%;
+}
+
+div#gentenDialogDiv {
+    overflow-y: scroll;
+    height: 100%;
+    margin-left: 60%;
+}
+
+button.type_maru, button.type_batu, button.type_sankaku {
+    /* background-color: rgba(255, 255, 255, 0.5) !important;
+    border-color: rgba(0, 0, 0, 0.5) !important; */
+    opacity: 0.5 !important;
+}
+
+button.type_maru:hover, button.type_batu:hover, button.type_sankaku:hover {
+    /* background-color: white !important;
+    border-color: black !important; */
+    opacity: 1 !important;
+}
+
+button.type_tokuten {
+    opacity: 0.5 !important;
+}
+
+button.type_tokuten:hover {
+    opacity: 1 !important;
+}

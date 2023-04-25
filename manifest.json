@@ -1,0 +1,40 @@
+{
+    "name": "nagase-extension",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "description": "nagase-extension",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.toshin-correction.com/correction"
+            ],
+            "js": [
+                "ice.js",
+                "util.js"
+            ],
+            "css": [
+                "ice.css"
+            ]
+        },
+        {
+            "matches": [
+                "https://tensaku.toshin-correction.com/home"
+            ],
+            "js": [
+                "tensaku.js",
+                "util.js"
+            ]
+        },
+        {
+            "matches": [
+                "https://tensaku.toshin-correction.com/tensaku/*"
+            ],
+            "css": [
+                "tensaku-toan.css"
+            ],
+            "js": [
+                "tensaku-toan.js"
+            ]
+        }
+    ]
+}
